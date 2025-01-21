@@ -1,0 +1,27 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 2K of event 'cycles:uppp'
+# Event count (approx.): 1572235747
+#
+# Overhead  Command  Shared Object     Symbol                
+# ........  .......  ................  ......................
+#
+    95.98%  main     main              [.] matrixMultiplyKIJ
+     2.62%  main     [unknown]         [k] 0xffffffff8718a4ef
+     0.37%  main     main              [.] readMatrix
+     0.31%  main     [unknown]         [k] 0xffffffff87194098
+     0.20%  main     main              [.] writeMatrix
+     0.19%  main     libc-2.17.so      [.] __memset_sse2
+     0.12%  main     ld-2.17.so        [.] strcmp
+     0.08%  main     libc-2.17.so      [.] _int_malloc
+     0.07%  main     libc-2.17.so      [.] _int_free
+     0.04%  main     libc-2.17.so      [.] malloc
+     0.03%  main     ld-2.17.so        [.] _dl_new_object
+
+
+#
+# (Tip: Create an archive with symtabs to analyse on other machine: perf archive)
+#

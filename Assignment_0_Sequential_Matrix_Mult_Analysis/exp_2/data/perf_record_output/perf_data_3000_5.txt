@@ -1,0 +1,35 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 4M of event 'cycles:uppp'
+# Event count (approx.): 2804297085076
+#
+# Overhead  Command  Shared Object     Symbol                 
+# ........  .......  ................  .......................
+#
+    99.76%  main     main              [.] matrixMultiplyKJI
+     0.23%  main     [unknown]         [k] 0xffffffff8718a4ef
+     0.00%  main     libc-2.17.so      [.] profil_counter
+     0.00%  main     main              [.] readMatrix
+     0.00%  main     main              [.] writeMatrix
+     0.00%  main     [unknown]         [k] 0xffffffff87194098
+     0.00%  main     libc-2.17.so      [.] __memset_sse2
+     0.00%  main     libc-2.17.so      [.] _int_free
+     0.00%  main     main              [.] main
+     0.00%  main     ld-2.17.so        [.] do_lookup_x
+     0.00%  main     libc-2.17.so      [.] __restore_rt
+     0.00%  main     libc-2.17.so      [.] _int_malloc
+     0.00%  main     main              [.] operator new[]@plt
+     0.00%  main     libc-2.17.so      [.] sysmalloc
+     0.00%  main     ld-2.17.so        [.] _dl_fixup
+     0.00%  main     libc-2.17.so      [.] malloc
+     0.00%  main     ld-2.17.so        [.] _dl_lookup_symbol_x
+     0.00%  main     ld-2.17.so        [.] strcmp
+     0.00%  main     ld-2.17.so        [.] strsep
+
+
+#
+# (Tip: Show current config key-value pairs: perf config --list)
+#

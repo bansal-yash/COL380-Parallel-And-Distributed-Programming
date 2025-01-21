@@ -1,0 +1,21 @@
+
+ Performance counter stats for './main 4 4000 4000 4000 ./input_path/ ./output_path/':
+
+    5,40,74,64,255      cache-references                                            
+    1,75,91,79,605      cache-misses              #   32.532 % of all cache refs    
+ 2,02,67,06,19,131      cycles                                                      
+ 2,58,08,14,54,198      instructions              #    1.27  insn per cycle         
+   64,60,33,36,791      L1-dcache-loads                                             
+   16,22,26,48,466      L1-dcache-load-misses     #   25.11% of all L1-dcache hits  
+    5,38,84,04,668      LLC-loads                                                   
+    1,75,21,61,561      LLC-load-misses           #   32.52% of all LL-cache hits   
+
+      70.217530502 seconds time elapsed
+
+      69.364196000 seconds user
+       0.796370000 seconds sys
+
+
+
+
+Time Duration:- 70.36159063875675
