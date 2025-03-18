@@ -1,0 +1,65 @@
+﻿Optimizations,V,E,C,K,1 node,2 node,3 node,4 node
+,,,,,,,,
+O0: Base Code,40,160,2,10,4.7,0.47,0.46,1.98
+O0: Base Code,1000,20000,5,10,31.34,24.05,23.5,25.3
+O0: Base Code,1000,20000,5,100,30.55,23.91,22.46,24.11
+O0: Base Code,10000,5000000,50,100,13140.07,6893.86,12146.57,6729.77
+O0: Base Code,10000,5000000,50,1000,13038.21,7058.65,5866.14,6651.05
+O0: Base Code,100000,20000000,50,100,81929.77,53315.7,46541.92,49251.53
+O0: Base Code,100000,20000000,50,1000,87262.26,54179.37,47464.55,48578.06
+,,,,,,,,
+O1: Efficient Storage of Vertex-Color Mapping,40,160,2,10,0.33,40.38,1.36,17.7
+O1: Efficient Storage of Vertex-Color Mapping,1000,20000,5,10,13.45,12.06,11.74,11.78
+O1: Efficient Storage of Vertex-Color Mapping,1000,20000,5,100,13.5,11.77,11.35,11.84
+O1: Efficient Storage of Vertex-Color Mapping,10000,5000000,50,100,3935.94,3018,2763.54,2738.02
+O1: Efficient Storage of Vertex-Color Mapping,10000,5000000,50,1000,3925.49,2980.55,2906.16,2713.53
+O1: Efficient Storage of Vertex-Color Mapping,100000,20000000,50,100,36087.81,25016.72,22953.74,20691.12
+O1: Efficient Storage of Vertex-Color Mapping,100000,20000000,50,1000,35767.61,24995.52,22691.26,20712
+,,,,,,,,
+O2: Using Unordered Maps for Faster Lookups,40,160,2,10,5.03,2.1,15.9,1.89
+O2: Using Unordered Maps for Faster Lookups,1000,20000,5,10,12.48,15.73,11.51,12.6
+O2: Using Unordered Maps for Faster Lookups,1000,20000,5,100,12.04,18.64,12.74,12.45
+O2: Using Unordered Maps for Faster Lookups,10000,5000000,50,100,3034.48,2880.23,2146.23,2190.98
+O2: Using Unordered Maps for Faster Lookups,10000,5000000,50,1000,3021.75,2833.18,2100.52,2125.59
+O2: Using Unordered Maps for Faster Lookups,100000,20000000,50,100,25377.79,22790.27,17248.49,18582.93
+O2: Using Unordered Maps for Faster Lookups,100000,20000000,50,1000,25342.64,22522.81,18003.03,18262.54
+,,,,,,,,
+O3: Mapping Colors to a Contiguous Range,40,160,2,10,0.22,1.3,38.27,2.19
+O3: Mapping Colors to a Contiguous Range,1000,20000,5,10,4.77,6.2,6.02,7.36
+O3: Mapping Colors to a Contiguous Range,1000,20000,5,100,4.78,5.93,17.98,7.22
+O3: Mapping Colors to a Contiguous Range,10000,5000000,50,100,610.75,534.5,484.25,548.57
+O3: Mapping Colors to a Contiguous Range,10000,5000000,50,1000,595.82,535.45,512.57,588.5
+O3: Mapping Colors to a Contiguous Range,100000,20000000,50,100,7193.64,6016.95,5228.3,6269.47
+O3: Mapping Colors to a Contiguous Range,100000,20000000,50,1000,7080.91,6049.01,5361.55,6255.65
+,,,,,,,,
+O4: Compiler Optimizations,40,160,2,10,0.19,1.3,1.6,37.76
+O4: Compiler Optimizations,1000,20000,5,10,0.86,1.55,2.4,35.1
+O4: Compiler Optimizations,1000,20000,5,100,0.74,1.5,2.93,36.89
+O4: Compiler Optimizations,10000,5000000,50,100,70.82,44.5,76.39,128.25
+O4: Compiler Optimizations,10000,5000000,50,1000,79.27,53.59,71.68,110.12
+O4: Compiler Optimizations,100000,20000000,50,100,2718.34,943.31,1542.38,985.89
+O4: Compiler Optimizations,100000,20000000,50,1000,2881.33,1106.48,1550.57,957.11
+,,,,,,,,
+O5: Flattening Data Structures,40,160,2,10,0.12,1.04,1.02,1.36
+O5: Flattening Data Structures,1000,20000,5,10,0.26,1.46,1.89,1.93
+O5: Flattening Data Structures,1000,20000,5,100,0.38,1.42,1.86,1.91
+O5: Flattening Data Structures,10000,5000000,50,100,41.47,32.76,31.55,40.02
+O5: Flattening Data Structures,10000,5000000,50,1000,55.59,44.04,45.09,54.34
+O5: Flattening Data Structures,100000,20000000,50,100,574.17,398.49,311.1,438.16
+O5: Flattening Data Structures,100000,20000000,50,1000,737.47,366.74,340.19,458.25
+,,,,,,,,
+O6: Removing Redundant Reverse Mapping,40,160,2,10,0.11,1.21,1.32,1.92
+O6: Removing Redundant Reverse Mapping,1000,20000,5,10,0.26,1.35,1.38,1.77
+O6: Removing Redundant Reverse Mapping,1000,20000,5,100,0.35,1.23,1.5,1.9
+O6: Removing Redundant Reverse Mapping,10000,5000000,50,100,39.53,31.25,33.47,44.54
+O6: Removing Redundant Reverse Mapping,10000,5000000,50,1000,51.44,42.97,44.92,56.84
+O6: Removing Redundant Reverse Mapping,100000,20000000,50,100,543.12,218.04,309.26,495.1
+O6: Removing Redundant Reverse Mapping,100000,20000000,50,1000,626.73,311.88,365.83,481.63
+,,,,,,,,
+O7: Using MPI_Reduce for Merging,40,160,2,10,0.16,1.15,1.37,1.74
+O7: Using MPI_Reduce for Merging,1000,20000,5,10,0.28,1.34,1.59,2.62
+O7: Using MPI_Reduce for Merging,1000,20000,5,100,0.37,1.44,1.6,1.84
+O7: Using MPI_Reduce for Merging,10000,5000000,50,100,36.77,31.38,29.47,30.76
+O7: Using MPI_Reduce for Merging,10000,5000000,50,1000,49.12,44.29,44.42,43.76
+O7: Using MPI_Reduce for Merging,100000,20000000,50,100,401.37,299.42,308.59,252.63
+O7: Using MPI_Reduce for Merging,100000,20000000,50,1000,530.88,391.11,349.77,339.23
